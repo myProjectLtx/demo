@@ -1,0 +1,326 @@
+.main{
+  background: rgb(8, 11, 41);
+  width: 1920px;
+  height: 1080px;
+}
+.bigHeader{
+  height: 113px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+}
+.bigHeaderLeft{
+  width: 537px;
+}
+.bigHeaderLeftContent1{
+  height: 69px;
+}
+.bigHeaderLeftContent1Img{
+  width: 100%;
+}
+.bigHeaderLeftContent1Time{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-left: 66px;
+}
+.bigHeaderRight{
+  width: 522px;
+}
+.bigHeaderContent{
+  width: 877px;
+  height: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 11;
+}
+.bigHeaderContentImg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.bigHeaderContentSpan{
+  font-size: 48px;
+  font-family: Helvetica;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+/*图表内容*/
+.bigContent{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13px;
+  position: relative;
+}
+.version{
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}
+/*左方内容*/
+.bigContentLeft{
+  width: 419px;
+  height: 100%;
+  position: relative;
+  margin-left: 13px;
+  box-sizing: border-box;
+}
+.bigContentLeftContent1{
+  position: relative;
+  height: 284px;
+  width: 426px;
+  overflow: hidden;
+}
+.bigContentLeftContent1Title{
+  margin-top: 20px;
+  position: relative;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.bigContentLeftContent1TitleNumber{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: #0BDC8C;
+  position: relative;
+}
+.bigContentLeftContent1Main{
+  height: 90px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+/deep/ .el-progress-bar__outer{
+  background-color: rgb(14, 42, 107) ;
+  border-radius: 0 100px 100px 0;
+}
+/deep/ .el-progress-bar__inner{
+  border-radius: 0 100px 100px 0;
+}
+
+.bigContentLeftContent1MainItem{
+  color: #FFFFFF;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 99;
+  margin-top: 5px;
+}
+.bigContentLeftContent1MainSpan{
+  z-index: 1;
+  font-size: 10px;
+}
+.bigContentLeftImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.bigContentLeftContent2{
+  margin-top: 12px;
+  position: relative;
+  height: 631px;
+  width: 100%;
+  overflow: hidden;
+  background: #050D4B;
+  border: 1px solid #1480F0;
+}
+.left1{
+  height: 177px;
+  width: 100%;
+
+}
+.left1Content{
+  margin-top: 18px;
+  padding: 0 7px 0 5px;
+  display: flex;
+  justify-content: left;
+}
+.left1ContentDay{
+  width: 200px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.left1ContentDayDiv1{
+  text-align: center;
+  margin-top: 14px;
+}
+.left1ContentDaySpan1{
+  font-size: 24px;
+  font-family: Helvetica;
+  color: #0BAEFF;
+}
+.left1ContentDayDiv2{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: #ffffff;
+}
+.left1ContentDayDiv2Content{
+  text-align: center;
+  font-size: 7px;
+}
+.marginR5{
+  margin-right: 5px;
+}
+.marginL5{
+  margin-left: 5px;
+}
+.left1ContentMonth{
+  width: 200px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 6px;
+  position: relative;
+}
+.left2{
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+.left3{
+  height: 274px;
+  width: 100%;
+  position: relative;
+}
+#toDayCheck{
+  width: 100%;
+  height: 175px;
+}
+/* 中间内容 */
+.bigContentCenter{
+  width: 1032px;
+  background: white;
+  height: 100%;
+  /*margin-left: 12px;*/
+}
+.bigContentCenterHeader{
+  position: relative;
+  height: 188px;
+}
+.bigContentCenterHeaderImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bigContentCenterHeaderImgLoading{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 32px;
+  left: 459px;
+}
+.bigContentCenterHeaderCount{
+  position: relative;
+  padding: 23px 16px 0 16px;
+  height: 40px;
+  line-height: 40px;
+}
+.bigContentCenterHeaderCountSpan{
+  font-size: 20px;
+  font-family: Helvetica;
+  color: rgb(255,255,255);
+  position: absolute;
+  top: 0;
+  width: 192px;
+  font-weight: bold;
+}
+.bigContentCenterHeaderCountLeft{
+  position: absolute;
+  width: 419px;
+  height: 151px;
+  left: 16px;
+  top: 23px;
+}
+.bigContentCenterHeaderCountRight{
+  position: absolute;
+  width: 419px;
+  height: 151px;
+  right: 16px;
+  top: 23px;
+}
+.bigContentCenterContent{
+  position: relative;
+  height: 746px;
+}
+.bigContentCenterContentImg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bigContentCenterHeaderCountBottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bigContentCenterHeaderCountBottomItem{
+  height: 69px;
+  width: 47px;
+  font-size: 44px;
+  font-family: Helvetica;
+  color: #FEDB65;
+  line-height: 69px;
+  text-align: center;
+  background: url("../../assets/bigSreen/bgCount.png") no-repeat 0 0;
+}
+/* 右边内容 */
+.bigContentRight{
+  /*margin-left: 9px;*/
+  width: 421px;
+  height: 100%;
+}
+/* 设备分布 */
+.facilityCountryRatio{
+  height: 134px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.facilityCountryRatioImg{
+  width: 55px;
+  height: 39px;
+}
+.facilityCountryRatioContent{
+  margin-top: 17px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.iocn{
+  width: 12px;
+  height: 18px;
+}
+span{
+  font-size: 18px;
+  color: rgb(255,255,255);
+}
+.fenge{
+  width: 1px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+#monthNewCount{
+  width: 100%;
+  height: 195px;
+}
+
+#facilityTypeRatio{
+  width: 100%;
+  height: 195px;
+}
+
+#map{
+  width: 100%;
+  height: 740px;
+}
